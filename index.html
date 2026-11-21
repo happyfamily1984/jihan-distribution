@@ -3,17 +3,31 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>JIHAN DISTRIBUTION (지한유통) — E-commerce &amp; Mobile Applications</title>
-<meta name="description" content="JIHAN DISTRIBUTION (지한유통) is a Korean company operating e-commerce retail and mobile application services. Official website and business information." />
+<title>JIHAN DISTRIBUTION (지한유통) — Jihan Labs · E-commerce &amp; Mobile Applications</title>
+<meta name="description" content="JIHAN DISTRIBUTION (지한유통) is a Korean company operating e-commerce retail and mobile application services. Our apps are published on Google Play as Jihan Labs. Official website and business information." />
+<meta name="keywords" content="JIHAN DISTRIBUTION, 지한유통, Jihan Labs, mobile app development, Google Play developer, Gwacheon, e-commerce" />
 <meta name="author" content="JIHAN DISTRIBUTION" />
 <meta name="robots" content="index, follow" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="JIHAN DISTRIBUTION" />
-<meta property="og:title" content="JIHAN DISTRIBUTION (지한유통)" />
-<meta property="og:description" content="E-commerce retail &amp; mobile application services from Gwacheon, Republic of Korea." />
+<meta property="og:title" content="JIHAN DISTRIBUTION (지한유통) — Jihan Labs" />
+<meta property="og:description" content="E-commerce retail &amp; mobile application services from Gwacheon, Republic of Korea. Mobile apps published on Google Play as Jihan Labs." />
 <meta property="og:url" content="https://happyfamily1984.github.io/jihan-distribution/" />
+<meta property="og:image" content="https://happyfamily1984.github.io/jihan-distribution/assets/jihan-labs-banner.jpg" />
+<meta property="og:image:secure_url" content="https://happyfamily1984.github.io/jihan-distribution/assets/jihan-labs-banner.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="2048" />
+<meta property="og:image:height" content="768" />
+<meta property="og:image:alt" content="Jihan Labs — Innovative Apps. A Smarter Life. Mobile app development, cloud solutions, smart innovation, better together." />
+<meta property="og:locale" content="ko_KR" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="JIHAN DISTRIBUTION (지한유통) — Jihan Labs" />
+<meta name="twitter:description" content="E-commerce retail &amp; mobile application services from Gwacheon, Republic of Korea. Mobile apps published on Google Play as Jihan Labs." />
+<meta name="twitter:image" content="https://happyfamily1984.github.io/jihan-distribution/assets/jihan-labs-banner.jpg" />
+<meta name="theme-color" content="#0a1f36" />
 <link rel="canonical" href="https://happyfamily1984.github.io/jihan-distribution/" />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f2f4f'/%3E%3Ctext x='32' y='43' font-family='Helvetica,Arial,sans-serif' font-size='30' font-weight='700' fill='%23ffffff' text-anchor='middle'%3EJ%3C/text%3E%3C/svg%3E" />
+<link rel="icon" type="image/png" sizes="512x512" href="assets/jihan-labs-logo.png" />
+<link rel="apple-touch-icon" sizes="512x512" href="assets/jihan-labs-logo.png" />
 <style>
   :root{
     --navy:#0f2f4f;
@@ -53,9 +67,8 @@
   .brand{display:flex;align-items:center;gap:11px;font-weight:700;letter-spacing:.02em;color:var(--navy)}
   .brand:hover{text-decoration:none}
   .mark{
-    width:34px;height:34px;border-radius:9px;flex:none;
-    background:var(--navy);color:#fff;display:grid;place-items:center;
-    font-weight:800;font-size:17px;letter-spacing:0;
+    width:38px;height:38px;border-radius:50%;flex:none;display:block;
+    background:var(--navy-deep);object-fit:cover;
   }
   .brand small{display:block;font-size:11px;font-weight:500;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;line-height:1.2}
   .navlinks{display:flex;align-items:center;gap:26px;font-size:14.5px}
@@ -83,6 +96,21 @@
   .lead{font-size:clamp(16px,2vw,19px);color:#33424f;max-width:760px;margin:22px 0 0}
   .lead .ko{display:block;color:var(--muted);font-size:.92em;margin-top:8px}
   .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+
+  /* Jihan Labs brand banner — full image ratio, never cropped */
+  .banner{
+    margin:44px 0 0;padding:0;background:var(--navy-deep);
+    border:1px solid rgba(10,31,54,.45);border-radius:16px;
+    box-shadow:0 18px 44px rgba(10,31,54,.22);overflow:hidden;
+  }
+  .banner img{display:block;width:100%;height:auto;aspect-ratio:2048/768}
+  @media (max-width:620px){
+    .banner{margin-top:30px;border-radius:12px;box-shadow:0 10px 26px rgba(10,31,54,.2)}
+  }
+  .banner-cap{
+    margin:14px 0 0;font-size:12.5px;color:var(--muted);letter-spacing:.02em;
+  }
+  .banner-cap strong{color:var(--navy);font-weight:700}
   .btn{
     display:inline-flex;align-items:center;gap:8px;
     padding:12px 22px;border-radius:10px;font-weight:600;font-size:15px;
@@ -153,6 +181,32 @@
   .skip{position:absolute;left:-9999px;top:0;background:#fff;color:var(--navy);padding:10px 16px;z-index:100;border-radius:0 0 8px 0}
   .skip:focus{left:0}
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "JIHAN DISTRIBUTION",
+  "alternateName": ["지한유통", "Jihan Labs"],
+  "legalName": "JIHAN DISTRIBUTION (지한유통)",
+  "url": "https://happyfamily1984.github.io/jihan-distribution/",
+  "logo": "https://happyfamily1984.github.io/jihan-distribution/assets/jihan-labs-logo.png",
+  "image": "https://happyfamily1984.github.io/jihan-distribution/assets/jihan-labs-banner.jpg",
+  "description": "Korean wholesale and retail company in Gwacheon operating e-commerce retail and mobile application services, publishing apps on Google Play as Jihan Labs.",
+  "foundingDate": "2020-12-08",
+  "founder": { "@type": "Person", "name": "KIM SINCHANG" },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "110 Byeoryang-ro, 627-701",
+    "addressLocality": "Gwacheon-si",
+    "addressRegion": "Gyeonggi-do",
+    "postalCode": "13833",
+    "addressCountry": "KR"
+  },
+  "email": "happyfamily1984.3@gmail.com",
+  "telephone": "+82-10-9410-9103",
+  "vatID": "808-18-01408"
+}
+</script>
 </head>
 <body>
 <a class="skip" href="#main">본문으로 바로가기 / Skip to content</a>
@@ -160,8 +214,8 @@
 <header class="site">
   <div class="wrap nav">
     <a class="brand" href="#top" aria-label="JIHAN DISTRIBUTION home">
-      <span class="mark" aria-hidden="true">J</span>
-      <span>JIHAN DISTRIBUTION<small>지한유통</small></span>
+      <img class="mark" src="assets/jihan-labs-logo.png" alt="" width="38" height="38" aria-hidden="true" />
+      <span>JIHAN DISTRIBUTION<small>지한유통 · Jihan Labs</small></span>
     </a>
     <nav class="navlinks" aria-label="Main navigation">
       <a href="#about">회사 소개 <span lang="en">/ About</span></a>
@@ -191,6 +245,13 @@
         <a class="btn primary" href="#business">사업 분야 보기 <span lang="en">View business</span></a>
         <a class="btn ghost" href="#contact">문의하기 <span lang="en">Contact us</span></a>
       </div>
+
+      <figure class="banner">
+        <img src="assets/jihan-labs-banner.jpg"
+             alt="Jihan Labs — Innovative Apps. A Smarter Life. Mobile app development, cloud solutions, smart innovation, better together."
+             width="2048" height="768" decoding="async" />
+      </figure>
+      <p class="banner-cap"><strong>Jihan Labs</strong> — 지한유통의 모바일 앱 스튜디오 / the mobile app studio of JIHAN DISTRIBUTION</p>
     </div>
   </section>
 
@@ -217,13 +278,13 @@
           <p>
             We work with small, clearly defined product lines and keep our operation lean: a direct
             online storefront, straightforward order handling, and applications maintained by the
-            same team that designs them. Our applications are published under the JIHAN DISTRIBUTION
-            developer account on Google Play.
+            same team that designs them. Our applications are published on Google Play under our
+            app studio name, Jihan Labs (JIHAN DISTRIBUTION).
           </p>
           <p lang="ko">
             명확하게 정의된 소수의 상품군을 다루고, 운영은 간결하게 유지합니다. 직접 운영하는 온라인
             판매 채널과 단순한 주문 처리, 그리고 설계부터 유지보수까지 같은 팀이 담당하는 앱이
-            우리 사업의 중심입니다. 모든 앱은 Google Play의 JIHAN DISTRIBUTION 개발자 계정으로
+            우리 사업의 중심입니다. 모든 앱은 Google Play에 Jihan Labs(지한유통) 개발자 이름으로
             배포됩니다.
           </p>
         </div>
@@ -260,8 +321,8 @@
             <svg viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.6"/><path d="M10.5 18.5h3"/></svg>
           </div>
           <h3>모바일 앱 서비스 <span class="ko" lang="en">Mobile applications</span></h3>
-          <p lang="ko">자체 기획·개발한 모바일 애플리케이션을 Google Play에 게시하고 운영합니다. 앱의 기능, 개인정보 처리, 업데이트를 모두 회사가 직접 관리합니다.</p>
-          <p lang="en">We design, build and publish our own mobile applications on Google Play, and we manage their features, privacy practices and updates directly.</p>
+          <p lang="ko">자체 기획·개발한 모바일 애플리케이션을 Jihan Labs 이름으로 Google Play에 게시하고 운영합니다. 앱의 기능, 개인정보 처리, 업데이트를 모두 회사가 직접 관리합니다.</p>
+          <p lang="en">We design, build and publish our own mobile applications on Google Play as Jihan Labs, and we manage their features, privacy practices and updates directly.</p>
         </article>
 
         <article class="card">
@@ -327,7 +388,7 @@
       </div>
     </div>
     <div class="f-bottom">
-      <span>© 2025 JIHAN DISTRIBUTION. All rights reserved. / 지한유통</span>
+      <span>© 2026 JIHAN DISTRIBUTION. All rights reserved. / 지한유통</span>
       <span class="f-links">
         <a href="#about">회사 소개</a>
         <a href="#business">사업 분야</a>
